@@ -1,0 +1,17 @@
+$coloresPrincipales:(
+	colorPrimario: blue,
+	colorSecundario #febe4a,
+	colorBlack: black,
+	colorWhite: white,
+);
+@each $clave, $valor in $coloresPrincipales{
+	.#{$clave}{
+		color: $valor;
+	}
+}
+$estilos:(
+	color: red,
+	centro: center,
+	tfuente: 35px,
+	paddingTop: 10px,
+);

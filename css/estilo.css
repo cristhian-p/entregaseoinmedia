@@ -1,0 +1,194 @@
+.texto, .subtitulo {
+  background-color: #474141;
+  color: #febe4a;
+  width: 250px;
+  font-size: 20px; }
+
+header {
+  background-color: #474141;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px; }
+
+.link-item:hover {
+  background-color: #febe4a; }
+
+nav ul li {
+  list-style-type: none;
+  font-size: 14px;
+  padding-right: 20px;
+  padding-top: 0px; }
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 3px;
+  display: flex; }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 155px;
+  text-align: center; }
+
+.grid-container {
+  display: grid;
+  background-color: white;
+  grid-template-columns: auto auto;
+  column-gap: 5px; }
+
+.grid-container div {
+  background-color: white; }
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas: "editorial" "asesoria" "proyectos" "fotografia" "contenidos" "drones";
+  padding-top: 20px;
+  padding-right: 450px;
+  column-gap: 5px;
+  grid-row-gap: 10px; }
+
+.grid-container2 li {
+  background-color: #febe4a; }
+
+.editorial {
+  grid-area: editorial; }
+
+.asesoria {
+  grid-area: asesoria; }
+
+.proyectos {
+  grid-area: proyectos; }
+
+.fotografia {
+  grid-area: fotografia; }
+
+.contenidos {
+  grid-area: contenidos; }
+
+.btn-primary {
+  background-color: #474141;
+  color: #febe4a; }
+
+.drones {
+  grid-area: drones; }
+
+.titulo {
+  background-color: #474141;
+  color: #febe4a; }
+
+.subtitulo {
+  font-weight: 20px; }
+
+.parrafo {
+  background-color: #febe4a;
+  padding: 20px;
+  margin: 20px;
+  width: 80%; }
+
+footer {
+  background-color: #474141; }
+
+footer div h3 {
+  color: white;
+  border-left: 20px;
+  padding-left: 20px;
+  margin-left: 20px; }
+
+footer div a {
+  display: flex;
+  border-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 20px; }
+
+footer div p {
+  color: #febe4a;
+  font-size: 18px;
+  border-left: 20px;
+  padding-left: 20px;
+  margin-left: 20px; }
+
+header div a {
+  border: 20px;
+  padding: 20px;
+  margin: 20px; }
+
+.bi-face {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #febe4a; }
+  .bi-face:hover {
+    color: face; }
+
+.bi-insta {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #febe4a; }
+  .bi-insta:hover {
+    color: insta; }
+
+footer {
+  display: flex;
+  flex-direction: row; }
+
+@media (max-width: 768px) {
+  header {
+    font-size: 20px; }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3px;
+    display: flex; }
+  .link-item:hover {
+    background-color: #febe4a; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    text-align: right; }
+  .grid-container {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px; }
+  .grid-container div {
+    background-color: white; }
+  .parrafo {
+    background-color: #febe4a;
+    padding: 0 18px;
+    margin: 5px;
+    width: 80%; }
+  .subtitulo {
+    background-color: #474141;
+    color: #febe4a;
+    width: 201px;
+    font-size: 17px; }
+  footer div a {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    border-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-left: 5px; }
+  footer {
+    display: flex;
+    flex-direction: column; }
+  .grid-container2 {
+    display: grid;
+    grid-template-areas: "editorial" "asesoria" "proyectos" "fotografia" "contenidos" "drones";
+    padding-top: 20px;
+    padding-right: 40px;
+    column-gap: 5px;
+    grid-row-gap: 10px; } }
