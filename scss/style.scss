@@ -33,12 +33,13 @@ a{
 }
 .link-item:hover{
     background-color: #febe4a;
+    color: #ffffff;
 }
 nav ul li{
     list-style-type: none;
     font-size: 14px;
     padding-right: 20px;
-    padding-top: 0px;
+    padding-top: 50px;
 }
 header ul{
     display: flex;
@@ -104,6 +105,10 @@ header nav{
     background-color: #474141;
     color: #febe4a;
 }
+.formulario{
+    background-image: url(../Assets/img/formulario.jpg);
+    background-repeat: no-repeat;
+}
 .subtitulo{
     @extend .texto;
     font-weight: 20px;
@@ -142,19 +147,19 @@ header div a{
     padding: 20px;
     margin: 20px;
 }
-.bi-face{
-    @include redes (face);
-}
-.bi-insta{
-    @include redes (insta)
-}
 footer{
     display: flex;
     flex-direction: row;
 }
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     header{
         font-size: 20px;
+    }
+    nav ul li{
+    list-style-type: none;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-top: 2px;
     }
     header ul{
         display: flex;
@@ -164,6 +169,7 @@ footer{
     }
     .link-item:hover{
     background-color: #febe4a;
+    color: #ffffff;
     }
     header nav{
        display: flex;

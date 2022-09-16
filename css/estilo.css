@@ -17,13 +17,14 @@ a {
   padding: 0 5px; }
 
 .link-item:hover {
-  background-color: #febe4a; }
+  background-color: #febe4a;
+  color: #ffffff; }
 
 nav ul li {
   list-style-type: none;
   font-size: 14px;
   padding-right: 20px;
-  padding-top: 0px; }
+  padding-top: 50px; }
 
 header ul {
   display: flex;
@@ -83,6 +84,10 @@ header nav {
   background-color: #474141;
   color: #febe4a; }
 
+.formulario {
+  background-image: url(../Assets/img/formulario.jpg);
+  background-repeat: no-repeat; }
+
 .subtitulo {
   font-weight: 20px; }
 
@@ -120,38 +125,26 @@ header div a {
   padding: 20px;
   margin: 20px; }
 
-.bi-face {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #febe4a; }
-  .bi-face:hover {
-    color: face; }
-
-.bi-insta {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #febe4a; }
-  .bi-insta:hover {
-    color: insta; }
-
 footer {
   display: flex;
   flex-direction: row; }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   header {
     font-size: 20px; }
+  nav ul li {
+    list-style-type: none;
+    font-size: 14px;
+    padding-right: 20px;
+    padding-top: 2px; }
   header ul {
     display: flex;
     flex-direction: column;
     padding: 0 3px;
     display: flex; }
   .link-item:hover {
-    background-color: #febe4a; }
+    background-color: #febe4a;
+    color: #ffffff; }
   header nav {
     display: flex;
     flex-direction: row;
