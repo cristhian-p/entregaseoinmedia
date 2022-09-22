@@ -26,6 +26,15 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+.bgColor-Planes{
+    background-color: #F8F9FA;
+}
+.nav-item{
+    background-color: #474141;
+    color: #febe4a;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -150,6 +159,7 @@ header div a{
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 @media only screen and (max-width: 768px){
     header{
